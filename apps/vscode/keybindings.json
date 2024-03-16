@@ -45,5 +45,15 @@
 		"key": "ctrl+i",
 		"command": "-inlineChat.start",
 		"when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+	},
+	{
+		"key": "ctrl+alt+up",
+		"command": "editor.action.insertCursorAbove",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+alt+down",
+		"command": "editor.action.insertCursorBelow",
+		"when": "editorFocus"
 	}
 ]
