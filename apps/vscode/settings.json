@@ -1,0 +1,134 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.fontSize": 14,
+    "explorer.confirmDelete": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": false,
+    "todohighlight.keywords": [
+        {
+            "text": "@ANDERS",
+            "color": "#000000",
+            "foregroundColor": "black",
+            "backgroundColor": "yellow"
+        }
+    ],
+    "liveshare.guestApprovalRequired": true,
+    "liveshare.publishWorkspaceInfo": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "files.eol": "\n",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb",
+        "*.bin": "default",
+        "*.dat": "default"
+    },
+    "angular.experimental-ivy": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, minecraft enchantment",
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "arduino.additionalUrls": [
+        "http://arduino.esp8266.com/stable/package_esp8266com_index.json"
+    ],
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": true,
+		"scminput": false,
+		"yaml": false,
+		"javascript": false,
+		"css": false,
+		"typescript": false,
+		"astro": false
+	},
+    "git.autofetch": true,
+    "editor.autoClosingBrackets": "always",
+    "omnisharp.useGlobalMono": "never",
+    "security.workspace.trust.enabled": false,
+    "[handlebars]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "update.enableWindowsBackgroundUpdates": false,
+    "workbench.colorTheme": "Mono Atom",
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "*html": "html",
+        "*.hbs": "handlebars"
+    },
+    "remote.SSH.remotePlatform": {
+		"159.223.18.76": "linux",
+		"raspberrypi.local": "linux",
+		"raspi1": "linux",
+		"raspi7": "linux",
+		"raspi1.local": "linux",
+		"Raspi9": "linux",
+		"raspi9.local": "linux",
+		"AGLan": "linux",
+		"138.68.76.130": "linux",
+		"symphony.local": "linux",
+		"aglan.dk": "linux"
+	},
+    "google-translate.firstLanguage": "da",
+    "google-translate.serverDomain": "https://translate.google.com",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "copy-syntax.defaults.format": "irc",
+    "svelte.enable-ts-plugin": true,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": true,
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "rust_analyzer.inlayHints.foreground.typeHints": "#fdb6fdf0",
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "tailwindCSS.experimental.classRegex": [
+        [
+            "Classes \\=([^;]*);",
+            "'([^']*)'"
+        ],
+        [
+            "Classes \\=([^;]*);",
+            "\"([^\"]*)\""
+        ],
+        [
+            "Classes \\=([^;]*);",
+            "\\`([^\\`]*)\\`"
+        ]
+    ],
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"sqltools.useNodeRuntime": true,
+}

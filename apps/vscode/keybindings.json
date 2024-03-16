@@ -1,0 +1,49 @@
+[
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.files.saveAll"
+    },
+    {
+        "key": "ctrl+k s",
+        "command": "-workbench.action.files.saveAll"
+	},
+	{
+		"key": "ctrl+insert",
+		"command": "-editor.action.clipboardCopyAction"
+	},
+	{
+		"key": "ctrl+insert",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+	},
+	{
+		"key": "ctrl+alt+enter",
+		"command": "github.copilot.generate",
+		"when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "-github.copilot.generate",
+		"when": "editorTextFocus && github.copilot.activated && !inInteractiveInput && !interactiveEditorFocused"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "github.copilot.terminal.suggestCommand",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-github.copilot.terminal.suggestCommand",
+		"when": "terminalFocus"
+	},
+	{
+		"key": "ctrl+shift+i",
+		"command": "inlineChat.start",
+		"when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+	},
+	{
+		"key": "ctrl+i",
+		"command": "-inlineChat.start",
+		"when": "editorFocus && inlineChatHasProvider && !editorReadonly"
+	}
+]
