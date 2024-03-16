@@ -130,5 +130,5 @@
     "editor.unicodeHighlight.invisibleCharacters": false,
     "editor.detectIndentation": false,
 	"editor.insertSpaces": false,
-	"sqltools.useNodeRuntime": true,
+	"sqltools.useNodeRuntime": true
 }
